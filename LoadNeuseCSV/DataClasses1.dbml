@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="nssnc" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=JOSEPH\SQLEXPRESS;Initial Catalog=nssnc;Integrated Security=True" SettingsObjectName="LoadNeuseCSV.Properties.Settings" SettingsPropertyName="nssncConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.sections" Member="sections">
+    <Type Name="section">
+      <Column Name="sectionID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="sectionName" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="sectionName2" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="sectionName3" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="sectionWorkingName" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sectionImage" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="topSection" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="sectionOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rootSection" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="sectionDisabled" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="sectionurl" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="sectionurl2" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="sectionurl3" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="sectionHeader" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sectionHeader2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sectionHeader3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sectionDescription" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sectionDescription2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sectionDescription3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sTitle" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="sMetaDesc" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

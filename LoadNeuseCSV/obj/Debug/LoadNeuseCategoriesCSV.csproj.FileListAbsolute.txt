@@ -1,0 +1,14 @@
+C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseCategoriesCSV\LoadNeuseCSV\bin\Debug\LoadNeuseCSV.exe.config
+C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseCategoriesCSV\LoadNeuseCSV\bin\Debug\LoadNeuseCSV.exe
+C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseCategoriesCSV\LoadNeuseCSV\bin\Debug\LoadNeuseCSV.pdb
+C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseCategoriesCSV\LoadNeuseCSV\bin\Debug\LINQtoCSV.dll
+C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseCategoriesCSV\LoadNeuseCSV\obj\Debug\LoadNeuseCSV.exe
+C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseCategoriesCSV\LoadNeuseCSV\obj\Debug\LoadNeuseCSV.pdb
+C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseCategoriesCSV\LoadNeuseCSV\obj\Debug\LoadNeuseCategoriesCSV.csprojResolveAssemblyReference.cache
+C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseProductsBulk\LoadNeuseCSV\bin\Debug\LoadNeuseCSV.exe.config
+C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseProductsBulk\LoadNeuseCSV\obj\Debug\LoadNeuseCSV.exe
+C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseProductsBulk\LoadNeuseCSV\obj\Debug\LoadNeuseCSV.pdb
+C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseProductsBulk\LoadNeuseCSV\bin\Debug\LoadNeuseCSV.exe
+C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseProductsBulk\LoadNeuseCSV\bin\Debug\LoadNeuseCSV.pdb
+C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseProductsBulk\LoadNeuseCSV\bin\Debug\LINQtoCSV.dll
+C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseProductsBulk\LoadNeuseCSV\obj\Debug\LoadNeuseCategoriesCSV.csprojResolveAssemblyReference.cache
