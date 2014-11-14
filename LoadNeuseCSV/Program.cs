@@ -71,7 +71,7 @@ namespace LoadNeuseCSV
             int count = 0;
             foreach (SectionCsv item in sectionsByName)
             {
-                var cx = new CsvContext();
+            /*    var cx = new CsvContext();
                 IEnumerable<SectionCsv> allReadyProcessed =
                     cx.Read<SectionCsv>("C:\\Users\\jlegacy\\Desktop\\BRSprocessed.csv", inputFileDescription);
 
@@ -88,23 +88,22 @@ namespace LoadNeuseCSV
                 }
                 catch (Exception e)
                 {
-                }
+                } */
 
-                var x = new CategoryID();
-                x.Code = Convert.ToString(Asc(item.code));
-                xx.Insert(count++, x);
+            //    var x = new CategoryID();
+          //      x.Code = Convert.ToString(Asc(item.code));
+            //    xx.Insert(count++, x);
 
                 TemplateSection = Asc(item.code).ToString();
                 NeuseCategory = item.id.ToString();
                 // executes the appropriate commands to implement the changes to the database
+                ProcessStartInfo startInfo = new ProcessStartInfo();
+                startInfo.FileName = @"C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseProductsCSV\LoadNeuseCSV\bin\Debug\LoadNeuseCSV.exe";
+                startInfo.Arguments = TemplateSection + " " + NeuseCategory;
+                Process.Start(startInfo);
             }
 
-            co.Write(xx, "C:\\Users\\jlegacy\\Desktop\\BRSprocessed.csv", outputFileDescription);
-
-            ProcessStartInfo startInfo = new ProcessStartInfo();
-            startInfo.FileName = @"C:\Users\jlegacy\Documents\Visual Studio 2013\Projects\LoadNeuseProductsCSV\LoadNeuseCSV\bin\Debug\LoadNeuseCSV.exe";
-           startInfo.Arguments =  TemplateSection + " " + NeuseCategory;
-            Process.Start(startInfo);
+      //      co.Write(xx, "C:\\Users\\jlegacy\\Desktop\\BRSprocessed.csv", outputFileDescription);
 
         }
 
